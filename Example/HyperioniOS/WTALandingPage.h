@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface WTLandingPage : UIViewController
+@interface WTALandingPage : UIViewController
 
 @end
