@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M95-dJ-6J9">
-    <device id="retina5_9" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,11 +16,11 @@
             <objects>
                 <viewController id="M95-dJ-6J9" customClass="WTALandingPage" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="67g-aT-81x">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hrx-WZ-bGx" customClass="WTAPageControl">
-                                <rect key="frame" x="111" y="715" width="153" height="25"/>
+                                <rect key="frame" x="111" y="673" width="192" height="25"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" id="6LS-d6-0As"/>
@@ -49,11 +50,11 @@
             <objects>
                 <viewController storyboardIdentifier="welcome" useStoryboardIdentifierAsRestorationIdentifier="YES" id="whP-gf-Uak" userLabel="WTLandingPage" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KxN-Jv-kml">
-                                <rect key="frame" x="69" y="395" width="236" height="107"/>
+                                <rect key="frame" x="89" y="370" width="236" height="107"/>
                                 <string key="text">Welcome to 
 Hyperion</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
@@ -61,7 +62,10 @@ Hyperion</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5iS-ef-ybD">
-                                <rect key="frame" x="100" y="521" width="175" height="49"/>
+                                <rect key="frame" x="121" y="496" width="172" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="172" id="O2K-Pw-Swk"/>
+                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="An in-app QA and design review menu with a built-in plugin system">
                                         <attributes>
@@ -74,23 +78,24 @@ Hyperion</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hyperion-Icon" translatesAutoresizingMaskIntoConstraints="NO" id="sFf-g5-ndq">
-                                <rect key="frame" x="138" y="85" width="99" height="250"/>
+                                <rect key="frame" x="157.66666666666669" y="61" width="99.000000000000057" height="249"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="98.599999999999994" id="BDi-0G-XZm"/>
-                                    <constraint firstAttribute="height" constant="250" id="BdV-kX-MzB"/>
+                                    <constraint firstAttribute="width" secondItem="sFf-g5-ndq" secondAttribute="height" multiplier="99:250" id="9J7-YJ-zpd"/>
+                                    <constraint firstAttribute="width" priority="800" constant="98.599999999999994" id="BDi-0G-XZm"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="sFf-g5-ndq" firstAttribute="centerX" secondItem="MpQ-Zt-xZj" secondAttribute="centerX" id="0dk-B2-Fui"/>
+                            <constraint firstItem="MpQ-Zt-xZj" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="5iS-ef-ybD" secondAttribute="bottom" constant="80" id="9a8-LE-KtF"/>
                             <constraint firstItem="KxN-Jv-kml" firstAttribute="centerX" secondItem="MpQ-Zt-xZj" secondAttribute="centerX" id="AJ2-vZ-NEE"/>
                             <constraint firstItem="sFf-g5-ndq" firstAttribute="top" secondItem="MpQ-Zt-xZj" secondAttribute="top" priority="500" constant="41" id="FYo-Hx-Krx"/>
-                            <constraint firstAttribute="trailing" secondItem="5iS-ef-ybD" secondAttribute="trailing" constant="100" id="Rv0-ve-Pzz"/>
+                            <constraint firstItem="KxN-Jv-kml" firstAttribute="top" relation="greaterThanOrEqual" secondItem="sFf-g5-ndq" secondAttribute="bottom" constant="10" id="LXy-gq-0di"/>
                             <constraint firstItem="sFf-g5-ndq" firstAttribute="top" relation="greaterThanOrEqual" secondItem="MpQ-Zt-xZj" secondAttribute="top" constant="3" id="TKV-AX-4fu"/>
-                            <constraint firstItem="KxN-Jv-kml" firstAttribute="top" secondItem="sFf-g5-ndq" secondAttribute="bottom" constant="60" id="YdY-9x-I1Q"/>
+                            <constraint firstItem="KxN-Jv-kml" firstAttribute="top" secondItem="sFf-g5-ndq" secondAttribute="bottom" priority="750" constant="60" id="YdY-9x-I1Q"/>
+                            <constraint firstItem="5iS-ef-ybD" firstAttribute="centerX" secondItem="sFf-g5-ndq" secondAttribute="centerX" id="oVJ-V2-GVS"/>
                             <constraint firstItem="5iS-ef-ybD" firstAttribute="top" secondItem="KxN-Jv-kml" secondAttribute="bottom" constant="19" id="wyZ-Rg-FJ2"/>
-                            <constraint firstItem="5iS-ef-ybD" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="100" id="xqC-yL-mb7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MpQ-Zt-xZj"/>
                     </view>
@@ -105,11 +110,14 @@ Hyperion</string>
             <objects>
                 <viewController storyboardIdentifier="gestures" id="aIX-qn-Ixz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fLV-dQ-S3X">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyV-VT-Dx6">
-                                <rect key="frame" x="55" y="144" width="206.33333333333331" height="84"/>
+                                <rect key="frame" x="55" y="120" width="235" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="235" id="zQ3-je-ffu"/>
+                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Gestures to remember">
                                         <attributes>
@@ -121,16 +129,25 @@ Hyperion</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="Shake-Icon" translatesAutoresizingMaskIntoConstraints="NO" id="4x6-GC-th5">
-                                <rect key="frame" x="50" y="328" width="60" height="60"/>
+                                <rect key="frame" x="50" y="304" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="MjI-Ut-WRQ"/>
+                                    <constraint firstAttribute="width" constant="60" id="oFR-xU-pYN"/>
+                                </constraints>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="Zoom-Icon" translatesAutoresizingMaskIntoConstraints="NO" id="iat-9d-sJn">
-                                <rect key="frame" x="50" y="540" width="52" height="60"/>
+                                <rect key="frame" x="50" y="516" width="52" height="60"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="NjV-kQ-WGa"/>
                                     <constraint firstAttribute="width" constant="52" id="OoK-3d-eBo"/>
+                                    <constraint firstAttribute="height" constant="60" id="YSn-Ib-8Yr"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZT-as-wbP">
-                                <rect key="frame" x="143" y="328" width="153.33333333333331" height="60"/>
+                                <rect key="frame" x="143" y="318.33333333333326" width="185" height="32.666666666666686"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="Buj-rL-LIy"/>
+                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Shake phone to expand Hyperion plugins menu.">
                                         <attributes>
@@ -143,7 +160,10 @@ Hyperion</string>
                                 <color key="highlightedColor" red="0.29029515389999999" green="0.29028904439999997" blue="0.2902931869" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tkx-IJ-TpS">
-                                <rect key="frame" x="135" y="542" width="173" height="57"/>
+                                <rect key="frame" x="135" y="530.33333333333348" width="160" height="32.666666666666629"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="fWy-d3-879"/>
+                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Zoom in to view the design up close.">
                                         <attributes>
@@ -161,7 +181,7 @@ Hyperion</string>
                                 <color key="highlightedColor" red="0.29029515385627747" green="0.29028904438018799" blue="0.29029318690299988" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WQj-U8-8SB">
-                                <rect key="frame" x="50" y="484" width="275" height="3"/>
+                                <rect key="frame" x="50" y="434" width="314" height="3"/>
                                 <color key="backgroundColor" red="0.90198010206222534" green="0.90196311473846436" blue="0.90197455883026123" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="3" id="Gwr-Rt-Ohg"/>
@@ -170,23 +190,23 @@ Hyperion</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="iat-9d-sJn" firstAttribute="top" secondItem="WQj-U8-8SB" secondAttribute="bottom" constant="53" id="04F-ss-7Jz"/>
-                            <constraint firstItem="Kva-MH-CBa" firstAttribute="trailing" secondItem="WQj-U8-8SB" secondAttribute="trailing" constant="50" id="1z1-fy-OEp"/>
+                            <constraint firstItem="iat-9d-sJn" firstAttribute="top" secondItem="WQj-U8-8SB" secondAttribute="bottom" priority="700" constant="79" id="04F-ss-7Jz"/>
+                            <constraint firstItem="WQj-U8-8SB" firstAttribute="leading" secondItem="iat-9d-sJn" secondAttribute="leading" id="2zn-mF-S8u"/>
                             <constraint firstItem="BZT-as-wbP" firstAttribute="leading" secondItem="4x6-GC-th5" secondAttribute="trailing" constant="33" id="3BU-TZ-mBJ"/>
+                            <constraint firstItem="Kva-MH-CBa" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="iat-9d-sJn" secondAttribute="bottom" constant="80" id="4wo-Xj-ryg"/>
                             <constraint firstItem="iat-9d-sJn" firstAttribute="leading" secondItem="Kva-MH-CBa" secondAttribute="leading" constant="50" id="5jL-Rl-D1m"/>
-                            <constraint firstItem="4x6-GC-th5" firstAttribute="top" secondItem="oyV-VT-Dx6" secondAttribute="bottom" constant="100" id="FSU-Bm-0GU"/>
-                            <constraint firstItem="oyV-VT-Dx6" firstAttribute="top" secondItem="Kva-MH-CBa" secondAttribute="top" constant="100" id="Fqi-Aw-eei"/>
+                            <constraint firstItem="WQj-U8-8SB" firstAttribute="top" relation="greaterThanOrEqual" secondItem="4x6-GC-th5" secondAttribute="bottom" constant="10" id="7Ew-zT-2xw"/>
+                            <constraint firstItem="oyV-VT-Dx6" firstAttribute="top" secondItem="Kva-MH-CBa" secondAttribute="top" priority="250" constant="100" id="Fqi-Aw-eei"/>
+                            <constraint firstItem="oyV-VT-Dx6" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Kva-MH-CBa" secondAttribute="top" constant="5" id="KRc-Tm-sWf"/>
                             <constraint firstItem="4x6-GC-th5" firstAttribute="leading" secondItem="Kva-MH-CBa" secondAttribute="leading" constant="50" id="MvX-Jf-qfT"/>
-                            <constraint firstItem="Kva-MH-CBa" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="oyV-VT-Dx6" secondAttribute="trailing" constant="85" id="Ouk-wt-j3C"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Tkx-IJ-TpS" secondAttribute="trailing" constant="50" id="Zj4-jw-jEZ"/>
-                            <constraint firstItem="WQj-U8-8SB" firstAttribute="leading" secondItem="Kva-MH-CBa" secondAttribute="leading" constant="50" id="bfW-Zm-s8f"/>
-                            <constraint firstItem="iat-9d-sJn" firstAttribute="top" secondItem="4x6-GC-th5" secondAttribute="bottom" constant="152" id="cDD-Lx-MDM"/>
-                            <constraint firstItem="Tkx-IJ-TpS" firstAttribute="height" secondItem="iat-9d-sJn" secondAttribute="height" constant="-3" id="d8q-VN-npV"/>
+                            <constraint firstItem="WQj-U8-8SB" firstAttribute="centerX" secondItem="Kva-MH-CBa" secondAttribute="centerX" id="OOH-Ar-zjS"/>
+                            <constraint firstItem="4x6-GC-th5" firstAttribute="top" secondItem="oyV-VT-Dx6" secondAttribute="bottom" priority="600" constant="100" id="Qji-fh-NhD"/>
+                            <constraint firstItem="iat-9d-sJn" firstAttribute="top" relation="greaterThanOrEqual" secondItem="WQj-U8-8SB" secondAttribute="bottom" constant="10" id="RYw-Zw-yKE"/>
+                            <constraint firstItem="4x6-GC-th5" firstAttribute="top" relation="greaterThanOrEqual" secondItem="oyV-VT-Dx6" secondAttribute="bottom" constant="10" id="bl0-rN-FcM"/>
                             <constraint firstItem="oyV-VT-Dx6" firstAttribute="leading" secondItem="Kva-MH-CBa" secondAttribute="leading" constant="55" id="dSu-wB-3c8"/>
-                            <constraint firstItem="Kva-MH-CBa" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BZT-as-wbP" secondAttribute="trailing" constant="50" id="g1l-wv-wDo"/>
                             <constraint firstItem="Tkx-IJ-TpS" firstAttribute="leading" secondItem="iat-9d-sJn" secondAttribute="trailing" constant="33" id="g3C-NS-IN1"/>
-                            <constraint firstItem="BZT-as-wbP" firstAttribute="height" secondItem="4x6-GC-th5" secondAttribute="height" id="gYX-af-yec"/>
                             <constraint firstItem="Tkx-IJ-TpS" firstAttribute="centerY" secondItem="iat-9d-sJn" secondAttribute="centerY" id="hYX-u6-pt7"/>
+                            <constraint firstItem="WQj-U8-8SB" firstAttribute="top" secondItem="4x6-GC-th5" secondAttribute="bottom" priority="700" constant="70" id="heF-CE-9ri"/>
                             <constraint firstItem="BZT-as-wbP" firstAttribute="centerY" secondItem="4x6-GC-th5" secondAttribute="centerY" id="xLu-2k-Bau"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Kva-MH-CBa"/>

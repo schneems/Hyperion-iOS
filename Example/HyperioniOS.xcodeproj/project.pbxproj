@@ -19,7 +19,7 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* WTAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* WTAAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* WTLandingPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* WTLandingPage.m */; };
+		6003F5A7195388D20070C39A /* WTALandingPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* WTALandingPage.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -28,6 +28,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9DE6EE1B1FD3CE8400F8A7D9 /* WTAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6EE1A1FD3CE8400F8A7D9 /* WTAPageControl.m */; };
 		E39D3B803C5E636E1B9A51B5 /* Pods_HyperioniOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2AEA9B3BFAD9195EEB91C6 /* Pods_HyperioniOS_Tests.framework */; };
 		E97EC84BEBA038AF9E64F9FD /* Pods_HyperioniOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84656DD908DDED319D6489E8 /* Pods_HyperioniOS_Example.framework */; };
 /* End PBXBuildFile section */
@@ -65,8 +66,8 @@
 		6003F59B195388D20070C39A /* HyperioniOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HyperioniOS-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* WTAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* WTAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* WTLandingPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTLandingPage.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* WTLandingPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTLandingPage.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* WTALandingPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTALandingPage.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* WTALandingPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTALandingPage.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* HyperioniOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyperioniOS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -77,6 +78,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84656DD908DDED319D6489E8 /* Pods_HyperioniOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperioniOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DE6EE191FD3CE8400F8A7D9 /* WTAPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTAPageControl.h; sourceTree = "<group>"; };
+		9DE6EE1A1FD3CE8400F8A7D9 /* WTAPageControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTAPageControl.m; sourceTree = "<group>"; };
 		AA56E073DC44B19561D68203 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BC4960CBFCD5EC799CB38C89 /* Pods-HyperioniOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperioniOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HyperioniOS_Tests/Pods-HyperioniOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C366CE253FDB4A5954D83D4A /* HyperioniOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HyperioniOS.podspec; path = ../HyperioniOS.podspec; sourceTree = "<group>"; };
@@ -165,8 +168,10 @@
 				6003F59C195388D20070C39A /* WTAAppDelegate.h */,
 				6003F59D195388D20070C39A /* WTAAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* WTLandingPage.h */,
-				6003F5A6195388D20070C39A /* WTLandingPage.m */,
+				6003F5A5195388D20070C39A /* WTALandingPage.h */,
+				6003F5A6195388D20070C39A /* WTALandingPage.m */,
+				9DE6EE191FD3CE8400F8A7D9 /* WTAPageControl.h */,
+				9DE6EE1A1FD3CE8400F8A7D9 /* WTAPageControl.m */,
 				49F68E861FCBBB6C0098E49D /* WTAThisVersionViewController.h */,
 				49F68E871FCBBB6C0098E49D /* WTAThisVersionViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -442,9 +447,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				49437DDD1FCCF29E00F4F2A5 /* WTASlowAnimatonsViewController.m in Sources */,
+				9DE6EE1B1FD3CE8400F8A7D9 /* WTAPageControl.m in Sources */,
 				6003F59E195388D20070C39A /* WTAAppDelegate.m in Sources */,
 				49F68E8D1FCBBD9D0098E49D /* WTAPluginTableViewCell.m in Sources */,
-				6003F5A7195388D20070C39A /* WTLandingPage.m in Sources */,
+				6003F5A7195388D20070C39A /* WTALandingPage.m in Sources */,
 				49F68E881FCBBB6C0098E49D /* WTAThisVersionViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -604,6 +610,7 @@
 				GCC_PREFIX_HEADER = "HyperioniOS/HyperioniOS-Prefix.pch";
 				INFOPLIST_FILE = "HyperioniOS/HyperioniOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
