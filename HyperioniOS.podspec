@@ -10,13 +10,6 @@ Pod::Spec.new do |s|
   s.name             = 'HyperioniOS'
   s.version          = '1.0.0'
   s.summary          = 'Hyperion is an app design review tool that allows you to inspect views and perform measurements live within your app.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 Hyperion is an app design review tool that allows you to inspect views and perform measurements live within your app. Hyperion is built on top of a plugin system so you can add and remove plugins as your workflow requires.
                        DESC

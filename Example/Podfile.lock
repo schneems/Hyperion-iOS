@@ -1,10 +1,10 @@
 PODS:
-  - HyperioniOS/AttributesInspector (0.99.0):
+  - HyperioniOS/AttributesInspector (1.0.0):
     - HyperioniOS/Core
-  - HyperioniOS/Core (0.99.0)
-  - HyperioniOS/Measurements (0.99.0):
+  - HyperioniOS/Core (1.0.0)
+  - HyperioniOS/Measurements (1.0.0):
     - HyperioniOS/Core
-  - HyperioniOS/SlowAnimations (0.99.0):
+  - HyperioniOS/SlowAnimations (1.0.0):
     - HyperioniOS/Core
 
 DEPENDENCIES:
@@ -18,8 +18,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  HyperioniOS: 6b075536e17d672ec83a430c68734b18d3c548e6
+  HyperioniOS: f558bfef1a6800b7587e18152f92c11b70c702ff
 
-PODFILE CHECKSUM: 883b581e264018a62a683939c5416aa9485727c5
+PODFILE CHECKSUM: 305d3a71510ce66d81c5119d573512c4e6171ac5
 
 COCOAPODS: 1.3.1

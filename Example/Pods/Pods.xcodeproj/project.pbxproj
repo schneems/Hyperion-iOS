@@ -40,18 +40,15 @@
 		2D9D6FC620E032FA92584C4BC6E2F3F4 /* HYPKeyValueTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = CEBEF0ECB955BF2D16AB25BF25BDA9E6 /* HYPKeyValueTableViewCell.xib */; };
 		2F49EF50466F24452708BB2E27815FAA /* PluginListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 436555707140E8571F9DED5DD81E42D8 /* PluginListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F8B4BAD59D18BEEB2804387DB590874 /* 75x-Selected@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = B95D2125431E81412229A50862D07CFB /* 75x-Selected@3x.png */; };
-		3433CC2B0596A76D06D3F19B1A6271F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		36786308D0B533774FA7FC28D195079A /* PluginListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07C323ED121975E110B318E3E3C0BB6 /* PluginListViewController.m */; };
 		36E77EFF447D30C6BD2EDBAA06E0D4CD /* HYPViewPreview.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0A4ED01E289127EA606CD78F4BD92E42 /* HYPViewPreview.xib */; };
 		3745BA764EACCF82675A3834211AE9C2 /* HYPPluginExtensionImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 030AD5A2763E8E13D159AC1F21301540 /* HYPPluginExtensionImp.m */; };
-		39BD09D98BB1C2C3F39039303B1A93DE /* Pods-HyperioniOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A375D275DF6330FF022C5F18B6523 /* Pods-HyperioniOS_Tests-dummy.m */; };
 		3CE44435A8D2DE2EE95616A3E954F1BE /* HYPActivationGestureOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D8DBB5D2AD4BA1D6EE72CCFEE75DF7D /* HYPActivationGestureOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CFC29C1CE47D7873A2441B8DF9CB90B /* HYPAttributesProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = FD3D76FC4A24F6988FDED8863B8509D4 /* HYPAttributesProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D6F7BFCE2F778873E438AEAF0140F33 /* ruler@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 02B4ABFEEB47E2C28AF241F4900A20FC /* ruler@2x.png */; };
 		430558B184E41BFD2CF50CC777FDC5B4 /* HYPAttributedStringAttributeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5D9F7CBD2BC835509CD165C353A3FB /* HYPAttributedStringAttributeTableViewCell.m */; };
 		451C8DC84FEF8AADEE1B7CE41AEFE0E6 /* HYPSnapshotContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E76754B8DCDC088A2EAF5E35991B0 /* HYPSnapshotContainer.m */; };
 		4B4879A285902438B7E8555276C823B2 /* font@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 9DA495684BB6E0B6DB9E42983D73F17A /* font@3x.png */; };
-		505C7434085385B54BF91C5597BDEA0B /* Pods-HyperioniOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8DF16FB85D4C81238914E099C3CAC2 /* Pods-HyperioniOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5133C75A5689FF56B3EE44314DF9BFBC /* HYPKeyValueInspectorAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 510AFDBE65FC6E8174DDD500C9EAE257 /* HYPKeyValueInspectorAttribute.m */; };
 		51526736F9DD2209A989E24126D187C9 /* HYPMeasurementsInteractionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 683F7F5D55521F1E336C07E3C6964E77 /* HYPMeasurementsInteractionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53147F7768633CA9FCFE3EB57145DF06 /* 50x-Unselected@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = C28838C3D6072A3126A6B38AEA85C461 /* 50x-Unselected@2x.png */; };
@@ -66,7 +63,7 @@
 		60B8EAB0AD93BDBFEE60A51F6478E9FC /* timer@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = E2A11C32EFCB6D0F3FA582723E919812 /* timer@2x.png */; };
 		610476E92FA58DE4129C23EF8C72C028 /* HYPAttributesInspectorPluginModule.h in Headers */ = {isa = PBXBuildFile; fileRef = C954AE3EFA0B1B54801CF31C0B906BDF /* HYPAttributesInspectorPluginModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		622A0ABD591B5F590D4F49D535B4B051 /* attributeInspector@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = D927C66CADFD36B900EDFA19C940A0B4 /* attributeInspector@3x.png */; };
-		623023BD1DFB04777E868D75C4971916 /* Pods-HyperioniOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC333522D4C6B583FF5FB9195556B9A1 /* Pods-HyperioniOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		623023BD1DFB04777E868D75C4971916 /* Pods-HyperioniOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF1DE8147CAC0B71FA245C72430E7D86 /* Pods-HyperioniOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		630D495D5B0AE52969B24D70F1B89849 /* HYPAttributedStringAttributeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FE16F2F35C4D5EB4BF4174F3927806EF /* HYPAttributedStringAttributeTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63BABBD2557A5E5EFE2147C55B7C20FE /* HYPPluginHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FBA2821078CA43B911859CEB5F38DEB /* HYPPluginHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		649C707682EA551EA59303F6231E519F /* timer@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = CA36A51996DD72F4658C4BFDA8298621 /* timer@3x.png */; };
@@ -146,7 +143,7 @@
 		EAC8269445B884316EC22D7F2BF84369 /* HYPTextPreview.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8B6032106EC2A2FA7346BA47221534B8 /* HYPTextPreview.xib */; };
 		EAFA4B9D52BB88F1CBC51EDCBADEAD92 /* HyperionDefaultConfiguration.plist in Sources */ = {isa = PBXBuildFile; fileRef = EB45FE5E5B69A6E0DEF5FCCA63F2EAF3 /* HyperionDefaultConfiguration.plist */; };
 		EB514FBD6C11A9368264E674E375245A /* HyperionCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF370B9D6850A78ABBD2B83EFF1EBB5 /* HyperionCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB6840BB56089E19FB15C233B207B708 /* Pods-HyperioniOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7009B53751EEA843E4E119D7AF32D8 /* Pods-HyperioniOS_Example-dummy.m */; };
+		EB6840BB56089E19FB15C233B207B708 /* Pods-HyperioniOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC346375CC8612DEF152496486E63E /* Pods-HyperioniOS_Example-dummy.m */; };
 		ECA62D1D9C8A28E127EDAC8CF820CFE7 /* HYPMoreAttributesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7135DB65C09D213F135AF8D6B9D3FBC0 /* HYPMoreAttributesListViewController.m */; };
 		ED59AEE9DD5B5DA718A3A8B4CE7E05F9 /* HYPPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA8555688F2A3BA7FB0D84DC8FA7EE /* HYPPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1449094149E1B4CF154946752196FA2 /* HYPSnapshotPluginModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F55022F845684621F39BE83C4FB333 /* HYPSnapshotPluginModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -167,7 +164,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008A375D275DF6330FF022C5F18B6523 /* Pods-HyperioniOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperioniOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		0088E757C83F3EA6E573A5C6364E449A /* Pods-HyperioniOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperioniOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		00915A2014E7CD4615D313630B9B04C5 /* HYPLabelAttributesProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPLabelAttributesProvider.m; sourceTree = "<group>"; };
 		0284E440831B78B1FBA9D60474675650 /* HYPAttributedStringAttributeProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPAttributedStringAttributeProvider.m; sourceTree = "<group>"; };
 		02B4ABFEEB47E2C28AF241F4900A20FC /* ruler@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ruler@2x.png"; sourceTree = "<group>"; };
@@ -182,13 +179,11 @@
 		09F58E44C8BEAC8399627CB897E71C9F /* HYPPopoverViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPPopoverViewController.h; sourceTree = "<group>"; };
 		0A4ED01E289127EA606CD78F4BD92E42 /* HYPViewPreview.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HYPViewPreview.xib; sourceTree = "<group>"; };
 		0D0FDE0D57387479CBF20C0CFDF10263 /* HYPAttributesProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPAttributesProvider.m; sourceTree = "<group>"; };
-		0D8DF16FB85D4C81238914E099C3CAC2 /* Pods-HyperioniOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperioniOS_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0E4B57A1FA715FEC970A64928297C2C2 /* HYPMeasurementsPluginModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPMeasurementsPluginModule.m; path = Measurements/HYPMeasurementsPluginModule.m; sourceTree = "<group>"; };
 		114558EBA2786591F7ED09B321E75D90 /* x@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "x@2x.png"; sourceTree = "<group>"; };
+		11CE168A0D2455132351AF94E9218FA1 /* HyperioniOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HyperioniOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B217FBE2EB417B2F7F338FE710C763 /* HYPSlowAnimationsPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPSlowAnimationsPlugin.m; path = SlowAnimations/HYPSlowAnimationsPlugin.m; sourceTree = "<group>"; };
-		12C805CBA91E54F8502BF19909F99CFB /* Pods-HyperioniOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperioniOS_Example-frameworks.sh"; sourceTree = "<group>"; };
 		12E1BF6E98912E69B90346AA8373A01A /* HYPMeasurementsPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPMeasurementsPlugin.h; path = Measurements/HYPMeasurementsPlugin.h; sourceTree = "<group>"; };
-		146ABE851AEBD8925B58380EC2561F0F /* Pods_HyperioniOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperioniOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D5F6469DCD528C5709B8D1C9353FCC /* 50x-Selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "50x-Selected@3x.png"; sourceTree = "<group>"; };
 		17220F6DA5B48E8FC3CFFD64377D17BF /* HYPOverlayContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPOverlayContainer.h; sourceTree = "<group>"; };
 		1AA96794832E664D7E4AADCECF348D81 /* 25x-Selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "25x-Selected@3x.png"; sourceTree = "<group>"; };
@@ -206,6 +201,7 @@
 		2977D34C8E26706CA654FB5C15A7B6F1 /* HYPSlowAnimationsPluginModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPSlowAnimationsPluginModule.h; path = SlowAnimations/HYPSlowAnimationsPluginModule.h; sourceTree = "<group>"; };
 		2B4CA4A22097E958D51F5ADCD44CF2CF /* HYPPluginModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPPluginModule.m; sourceTree = "<group>"; };
 		2CA1A37492AAB9226B3B7E7FB187CCD5 /* HYPSnapshotDebuggingWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPSnapshotDebuggingWindow.h; sourceTree = "<group>"; };
+		2D5C3C0B6B141278C7942E1AE2170133 /* Pods-HyperioniOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperioniOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2EC0AA26A77CEFB5F5B24F07445E34E8 /* HYPAttributesInspectorPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPAttributesInspectorPlugin.h; path = AttributesInspector/HYPAttributesInspectorPlugin.h; sourceTree = "<group>"; };
 		2FAB794948E20A4A8A84CD009B89A530 /* HYPViewSelectionTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPViewSelectionTableViewController.h; sourceTree = "<group>"; };
 		37583E98B2464344FE3FC05301128401 /* HYPMoreAttributesListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPMoreAttributesListViewController.h; sourceTree = "<group>"; };
@@ -213,40 +209,34 @@
 		38D4A3011C45AB152DE658D0831457A0 /* HYPOverlayDebuggingWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPOverlayDebuggingWindow.m; sourceTree = "<group>"; };
 		43423B56452A41F3028F092F15A901D6 /* HYPAttributesPreviewViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPAttributesPreviewViewController.m; sourceTree = "<group>"; };
 		436555707140E8571F9DED5DD81E42D8 /* PluginListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PluginListViewController.h; sourceTree = "<group>"; };
-		49A9473C6B271D8F7E69A8E46C2BE5EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49DD0504031F2B2A2D55829BDA5579E6 /* HyperioniOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HyperioniOS.xcconfig; sourceTree = "<group>"; };
 		4CF88264E0689B6634AE3B6468BE5AB1 /* HYPPluginExtensionImp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPPluginExtensionImp.h; path = Core/HYPPluginExtensionImp.h; sourceTree = "<group>"; };
-		4FF783E465932A510DB33282B871D764 /* Pods_HyperioniOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperioniOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		510AFDBE65FC6E8174DDD500C9EAE257 /* HYPKeyValueInspectorAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPKeyValueInspectorAttribute.m; sourceTree = "<group>"; };
 		529D297F95A914F34E7CB0E196A988F6 /* 25x-Selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "25x-Selected@2x.png"; sourceTree = "<group>"; };
-		52B7D4CA6A2743845C4321A757C523EB /* Pods-HyperioniOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperioniOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		57DC065D3381D0984306B8A9CD9FEACF /* HYPUIHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPUIHelpers.h; sourceTree = "<group>"; };
 		59A2FB29094B0752B0E2EF7B8D1ED686 /* HYPAttributedStringAttributeProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPAttributedStringAttributeProvider.h; sourceTree = "<group>"; };
 		5B4F6D42D8793A4C343D9695E968E1D3 /* HYPConfigurationConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPConfigurationConstants.m; sourceTree = "<group>"; };
 		5D823C5DFA3487D870477E5C19B893FE /* HYPViewPreview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPViewPreview.h; sourceTree = "<group>"; };
 		5EE09CF97D101E34684666C1E1236211 /* more@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "more@3x.png"; sourceTree = "<group>"; };
 		5FC4D8E3EA18B2F16B445BC2CE36100B /* ruler.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ruler.png; sourceTree = "<group>"; };
-		6131DCBA42EB92F485307F26DF023AFF /* Pods-HyperioniOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HyperioniOS_Tests.modulemap"; sourceTree = "<group>"; };
 		61D3B76670F7F215C3F3B6427F65D4B9 /* x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
-		62A0D75BD676AE6687350BDD88F627BB /* Pods-HyperioniOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HyperioniOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		64387363C7DCD47C1C120C2BB0341E74 /* HyperionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HyperionManager.h; sourceTree = "<group>"; };
-		6446F9313A014324D2C67948D4126A09 /* Pods-HyperioniOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperioniOS_Example-resources.sh"; sourceTree = "<group>"; };
 		683F7F5D55521F1E336C07E3C6964E77 /* HYPMeasurementsInteractionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPMeasurementsInteractionView.h; path = Measurements/HYPMeasurementsInteractionView.h; sourceTree = "<group>"; };
 		696D13F218FC64ABBBF073AE6ECC375B /* HYPPluginMenuItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPPluginMenuItem.m; sourceTree = "<group>"; };
 		6AF370B9D6850A78ABBD2B83EFF1EBB5 /* HyperionCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HyperionCore.h; path = Core/HyperionCore.h; sourceTree = "<group>"; };
 		6BD1C5FBB8D6339FE5463C8EBA4043A1 /* HYPListenerContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPListenerContainer.m; path = Core/HYPListenerContainer.m; sourceTree = "<group>"; };
-		6D7009B53751EEA843E4E119D7AF32D8 /* Pods-HyperioniOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperioniOS_Example-dummy.m"; sourceTree = "<group>"; };
 		6DC65749A6BF7E2CDE606A2055629450 /* HyperioniOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HyperioniOS-prefix.pch"; sourceTree = "<group>"; };
 		6E568112A2E4BDD214C6F7FE61C95BA1 /* HYPAttributeInspectorInteractionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPAttributeInspectorInteractionView.m; path = AttributesInspector/HYPAttributeInspectorInteractionView.m; sourceTree = "<group>"; };
 		6FBA2821078CA43B911859CEB5F38DEB /* HYPPluginHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPPluginHelper.h; sourceTree = "<group>"; };
 		7135DB65C09D213F135AF8D6B9D3FBC0 /* HYPMoreAttributesListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPMoreAttributesListViewController.m; sourceTree = "<group>"; };
+		71BA2D5B92EE03D6CC4E5DF37E947088 /* Pods-HyperioniOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HyperioniOS_Example.modulemap"; sourceTree = "<group>"; };
 		726220D929A47BAFCC3B287243E84D4A /* HYPPopoverViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPPopoverViewController.m; sourceTree = "<group>"; };
 		72AEDDCD96F990B1D9E1EEA24060DA65 /* HyperioniOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HyperioniOS-umbrella.h"; sourceTree = "<group>"; };
+		72DAB67CB0F6C3780E4127E5EEC4B931 /* Pods-HyperioniOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperioniOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		74CA8F6FD9BF305913D936110033C17A /* HYPAttributedStringInspectorAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPAttributedStringInspectorAttribute.m; sourceTree = "<group>"; };
 		7542C280851DECD61875FDEC66A2C5B2 /* HYPKeyValueTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPKeyValueTableViewCell.h; sourceTree = "<group>"; };
 		75D0EFB9BBA499733D35E706B22EA328 /* HYPSlowAnimationsPluginMenuItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPSlowAnimationsPluginMenuItem.m; path = SlowAnimations/HYPSlowAnimationsPluginMenuItem.m; sourceTree = "<group>"; };
 		75D75188517BC047CFC6A9ECF0761BC0 /* HYPAttributeInspectorInteractionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPAttributeInspectorInteractionView.h; path = AttributesInspector/HYPAttributeInspectorInteractionView.h; sourceTree = "<group>"; };
-		762D2B7416E48247B9024F99E4E75340 /* Pods-HyperioniOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperioniOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		762D6B6599AD12BC5132300B5167EBCE /* HYPPluginHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPPluginHelper.m; sourceTree = "<group>"; };
 		768F44FF7BA109C8049EF722996EEB90 /* HYPSlowAnimationsPluginMenuItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPSlowAnimationsPluginMenuItem.h; path = SlowAnimations/HYPSlowAnimationsPluginMenuItem.h; sourceTree = "<group>"; };
 		77382F23516F684FDBF58DE7129AE01E /* UIWindow+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Swizzling.m"; sourceTree = "<group>"; };
@@ -261,6 +251,7 @@
 		8A8310AC3577ED46808B8FF04B44AB07 /* HYPMeasurementsPluginModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPMeasurementsPluginModule.h; path = Measurements/HYPMeasurementsPluginModule.h; sourceTree = "<group>"; };
 		8B6032106EC2A2FA7346BA47221534B8 /* HYPTextPreview.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HYPTextPreview.xib; sourceTree = "<group>"; };
 		8C3021FB168C25C770D6F53E411B4BD6 /* UIWindow+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Swizzling.h"; sourceTree = "<group>"; };
+		8C73C3EF748F7EEAE85F0BADBA102417 /* Pods_HyperioniOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperioniOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D8DBB5D2AD4BA1D6EE72CCFEE75DF7D /* HYPActivationGestureOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPActivationGestureOptions.h; sourceTree = "<group>"; };
 		8ED51DA306C0AC5406E38AF75310F6F6 /* x@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "x@3x.png"; sourceTree = "<group>"; };
 		8F1C125CD82A084C99A52A4688583C4B /* HYPKeyValueTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPKeyValueTableViewCell.m; sourceTree = "<group>"; };
@@ -268,33 +259,32 @@
 		8F9622CE13C43FC8715738D02E5E1FDD /* 25x-Unselected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "25x-Unselected@3x.png"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		986B023C40CD5FD263D8692307FA9C86 /* HYPTextPreview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPTextPreview.m; sourceTree = "<group>"; };
+		9C160F138C54C2E40AEEAE5F7F42597E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C7ED4CED9D7F2432BA3C0F862715B95 /* HYPAttributesInspectorPluginModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPAttributesInspectorPluginModule.m; path = AttributesInspector/HYPAttributesInspectorPluginModule.m; sourceTree = "<group>"; };
 		9DA495684BB6E0B6DB9E42983D73F17A /* font@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "font@3x.png"; sourceTree = "<group>"; };
 		9E68F62ACA5758FCDD3B4554C723612F /* HYPOverlayDebuggingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPOverlayDebuggingViewController.h; sourceTree = "<group>"; };
 		9F0DA85FDBD3C129389D178E4BEE584C /* HYPPluginContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPPluginContainerView.h; path = Core/HYPPluginContainerView.h; sourceTree = "<group>"; };
 		A0B20D4C6BC7ECA7F8D41760422899EA /* HyperionWindowManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HyperionWindowManager.h; path = Core/HyperionWindowManager.h; sourceTree = "<group>"; };
 		A228E7F043565A0AEB7E4DF110E34CDF /* HYPInAppOverlayContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPInAppOverlayContainer.m; sourceTree = "<group>"; };
-		A39B8903C59CFB762E25A6ABC95F419E /* Pods-HyperioniOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperioniOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A415E8242985DB37F5E0901F3C78EC18 /* 75x-Selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "75x-Selected@2x.png"; sourceTree = "<group>"; };
 		A4CE2C0F6A579538ECE06CD5DA73742B /* 50x-Selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "50x-Selected@2x.png"; sourceTree = "<group>"; };
-		A7130E7BFDFB2564B4245C454040427F /* Pods-HyperioniOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperioniOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AA57F56B87F263D9784FD427AAA5758A /* HYPSnapshotInteractionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPSnapshotInteractionView.m; sourceTree = "<group>"; };
-		AC333522D4C6B583FF5FB9195556B9A1 /* Pods-HyperioniOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperioniOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		AF1DE8147CAC0B71FA245C72430E7D86 /* Pods-HyperioniOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperioniOS_Example-umbrella.h"; sourceTree = "<group>"; };
 		B051E9057B8537083A74620BF7991087 /* fontSize.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = fontSize.png; sourceTree = "<group>"; };
-		B255EE4D9283C6C25EB2B9BC09C1235F /* Pods-HyperioniOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperioniOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B25D7C9AD6D45DA777C1644F8DBCCF4B /* Pods-HyperioniOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HyperioniOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B3442BEE181ED0973F0A11D03FAB2F5B /* HyperionWindowManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HyperionWindowManager.m; path = Core/HyperionWindowManager.m; sourceTree = "<group>"; };
 		B48E76754B8DCDC088A2EAF5E35991B0 /* HYPSnapshotContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPSnapshotContainer.m; sourceTree = "<group>"; };
 		B4F52F2152CFE04BC4AAF91A2C98C97A /* 50x-Selected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "50x-Selected.png"; sourceTree = "<group>"; };
 		B61D3885A533EC8329BCCD7E8689B35E /* HYPPluginMenuItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPPluginMenuItem.h; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B80EED8CA77B1AC8A4E894E6373CA830 /* Pods-HyperioniOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperioniOS_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B95D2125431E81412229A50862D07CFB /* 75x-Selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "75x-Selected@3x.png"; sourceTree = "<group>"; };
 		BD70184AA48E127CF8C78FEAA70EEA1E /* HYPUIHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPUIHelpers.m; sourceTree = "<group>"; };
 		BE70A0FB1CFFD16D44037FDD2B6D3260 /* HYPKeyValueInspectorAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPKeyValueInspectorAttribute.h; sourceTree = "<group>"; };
-		BF5C9C80797C6A536C82B606DCF4D6E5 /* Pods-HyperioniOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HyperioniOS_Example.modulemap"; sourceTree = "<group>"; };
 		BF81B015CB136A4E9A08CE980DEC897E /* font@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "font@2x.png"; sourceTree = "<group>"; };
 		C28838C3D6072A3126A6B38AEA85C461 /* 50x-Unselected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "50x-Unselected@2x.png"; sourceTree = "<group>"; };
 		C42FFC3F2272DDEAC9497F45FD08F6B4 /* HYPInAppOverlayContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPInAppOverlayContainer.h; sourceTree = "<group>"; };
-		C577105A5822B73772A77632530B8E15 /* Pods-HyperioniOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperioniOS_Tests-resources.sh"; sourceTree = "<group>"; };
+		C5EC346375CC8612DEF152496486E63E /* Pods-HyperioniOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperioniOS_Example-dummy.m"; sourceTree = "<group>"; };
 		C723839B78630DFF5675906424C2D9FA /* fontSize@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "fontSize@2x.png"; sourceTree = "<group>"; };
 		C77C9ECBAB7CE7E8FE943F6673A56178 /* 75x-Unselected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "75x-Unselected@2x.png"; sourceTree = "<group>"; };
 		C7D113C7131E904F2E0ACAE5031B9541 /* HYPSnapshotViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPSnapshotViewController.m; sourceTree = "<group>"; };
@@ -303,8 +293,8 @@
 		C954AE3EFA0B1B54801CF31C0B906BDF /* HYPAttributesInspectorPluginModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPAttributesInspectorPluginModule.h; path = AttributesInspector/HYPAttributesInspectorPluginModule.h; sourceTree = "<group>"; };
 		C96F21FA2EB50C5C783BD3B015D24F0C /* HYPSnapshotInteractionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPSnapshotInteractionView.h; sourceTree = "<group>"; };
 		CA0116663D9310CDA9A3DE34F14F37D2 /* HyperionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HyperionManager.m; sourceTree = "<group>"; };
-		CA366045B9E1E657BB0CD05D83AA8442 /* Pods-HyperioniOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperioniOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CA36A51996DD72F4658C4BFDA8298621 /* timer@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "timer@3x.png"; sourceTree = "<group>"; };
+		CA75D0566C34D8BC02360D958B33FF33 /* Pods-HyperioniOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperioniOS_Example-resources.sh"; sourceTree = "<group>"; };
 		CD30E95CB7D9BEF367FEBCDBF67598DF /* UIApplication+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Swizzling.m"; sourceTree = "<group>"; };
 		CE5D9F7CBD2BC835509CD165C353A3FB /* HYPAttributedStringAttributeTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HYPAttributedStringAttributeTableViewCell.m; sourceTree = "<group>"; };
 		CEBEF0ECB955BF2D16AB25BF25BDA9E6 /* HYPKeyValueTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HYPKeyValueTableViewCell.xib; sourceTree = "<group>"; };
@@ -323,13 +313,9 @@
 		E0DF022A467DEFF231B6EB50D38AFD2D /* 75x-Selected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "75x-Selected.png"; sourceTree = "<group>"; };
 		E2A11C32EFCB6D0F3FA582723E919812 /* timer@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "timer@2x.png"; sourceTree = "<group>"; };
 		E33C8AA35477827B2DCCC3CA37A74710 /* HYPMeasurementsPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPMeasurementsPlugin.m; path = Measurements/HYPMeasurementsPlugin.m; sourceTree = "<group>"; };
-		E45B3BEC2BEADA96C423FF9FD0857AED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4E67AF6AF14EB147D4000974E3D099A /* 25x-Unselected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "25x-Unselected@2x.png"; sourceTree = "<group>"; };
-		EA7CEC2DE4E186542BD308BF579FF8E9 /* Pods-HyperioniOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HyperioniOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EAB245146B7CF6233A972AFA2D242DA6 /* HYPLabelAttributesProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HYPLabelAttributesProvider.h; sourceTree = "<group>"; };
 		EB45FE5E5B69A6E0DEF5FCCA63F2EAF3 /* HyperionDefaultConfiguration.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = HyperionDefaultConfiguration.plist; path = Core/HyperionDefaultConfiguration.plist; sourceTree = "<group>"; };
-		ECDE16988E5810AC30931FC5322A1D4F /* HyperioniOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HyperioniOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF0604574DA6E146F60D3EAF36B1D944 /* Pods-HyperioniOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperioniOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF5F5CEA70B47099FB3CE8B27DD05821 /* HYPSlowAnimationsPluginModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HYPSlowAnimationsPluginModule.m; path = SlowAnimations/HYPSlowAnimationsPluginModule.m; sourceTree = "<group>"; };
 		F07C323ED121975E110B318E3E3C0BB6 /* PluginListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PluginListViewController.m; sourceTree = "<group>"; };
 		F74343ACF096E9BE56AB68363B8A5DB6 /* HYPListenerContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HYPListenerContainer.h; path = Core/HYPListenerContainer.h; sourceTree = "<group>"; };
@@ -356,35 +342,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD0B6770CEB2FD600359DD5CB063F86D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3433CC2B0596A76D06D3F19B1A6271F4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00DD57CBFD9635675F86B9A17170A2AB /* Pods-HyperioniOS_Example */ = {
-			isa = PBXGroup;
-			children = (
-				E45B3BEC2BEADA96C423FF9FD0857AED /* Info.plist */,
-				BF5C9C80797C6A536C82B606DCF4D6E5 /* Pods-HyperioniOS_Example.modulemap */,
-				62A0D75BD676AE6687350BDD88F627BB /* Pods-HyperioniOS_Example-acknowledgements.markdown */,
-				52B7D4CA6A2743845C4321A757C523EB /* Pods-HyperioniOS_Example-acknowledgements.plist */,
-				6D7009B53751EEA843E4E119D7AF32D8 /* Pods-HyperioniOS_Example-dummy.m */,
-				12C805CBA91E54F8502BF19909F99CFB /* Pods-HyperioniOS_Example-frameworks.sh */,
-				6446F9313A014324D2C67948D4126A09 /* Pods-HyperioniOS_Example-resources.sh */,
-				AC333522D4C6B583FF5FB9195556B9A1 /* Pods-HyperioniOS_Example-umbrella.h */,
-				A7130E7BFDFB2564B4245C454040427F /* Pods-HyperioniOS_Example.debug.xcconfig */,
-				762D2B7416E48247B9024F99E4E75340 /* Pods-HyperioniOS_Example.release.xcconfig */,
-			);
-			name = "Pods-HyperioniOS_Example";
-			path = "Target Support Files/Pods-HyperioniOS_Example";
-			sourceTree = "<group>";
-		};
 		022FACB0700B71F5FE96C2664FB0D91E /* Public */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,34 +355,6 @@
 			);
 			name = Public;
 			path = Core/Public;
-			sourceTree = "<group>";
-		};
-		08FED257962256ABD4278A376B7339B3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				ECDE16988E5810AC30931FC5322A1D4F /* HyperioniOS.framework */,
-				146ABE851AEBD8925B58380EC2561F0F /* Pods_HyperioniOS_Example.framework */,
-				4FF783E465932A510DB33282B871D764 /* Pods_HyperioniOS_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		11CD522DB3E498E6425838F6F236BD1D /* Pods-HyperioniOS_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				49A9473C6B271D8F7E69A8E46C2BE5EB /* Info.plist */,
-				6131DCBA42EB92F485307F26DF023AFF /* Pods-HyperioniOS_Tests.modulemap */,
-				EA7CEC2DE4E186542BD308BF579FF8E9 /* Pods-HyperioniOS_Tests-acknowledgements.markdown */,
-				B255EE4D9283C6C25EB2B9BC09C1235F /* Pods-HyperioniOS_Tests-acknowledgements.plist */,
-				008A375D275DF6330FF022C5F18B6523 /* Pods-HyperioniOS_Tests-dummy.m */,
-				A39B8903C59CFB762E25A6ABC95F419E /* Pods-HyperioniOS_Tests-frameworks.sh */,
-				C577105A5822B73772A77632530B8E15 /* Pods-HyperioniOS_Tests-resources.sh */,
-				0D8DF16FB85D4C81238914E099C3CAC2 /* Pods-HyperioniOS_Tests-umbrella.h */,
-				EF0604574DA6E146F60D3EAF36B1D944 /* Pods-HyperioniOS_Tests.debug.xcconfig */,
-				CA366045B9E1E657BB0CD05D83AA8442 /* Pods-HyperioniOS_Tests.release.xcconfig */,
-			);
-			name = "Pods-HyperioniOS_Tests";
-			path = "Target Support Files/Pods-HyperioniOS_Tests";
 			sourceTree = "<group>";
 		};
 		1D436866D0DEF7834BF1012EAD4EAE6D /* OverlayDebuggingWindow */ = {
@@ -470,6 +402,24 @@
 			path = AttributeCells;
 			sourceTree = "<group>";
 		};
+		42C10003582C204D23324F6988FEC576 /* Pods-HyperioniOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9C160F138C54C2E40AEEAE5F7F42597E /* Info.plist */,
+				71BA2D5B92EE03D6CC4E5DF37E947088 /* Pods-HyperioniOS_Example.modulemap */,
+				B25D7C9AD6D45DA777C1644F8DBCCF4B /* Pods-HyperioniOS_Example-acknowledgements.markdown */,
+				72DAB67CB0F6C3780E4127E5EEC4B931 /* Pods-HyperioniOS_Example-acknowledgements.plist */,
+				C5EC346375CC8612DEF152496486E63E /* Pods-HyperioniOS_Example-dummy.m */,
+				B80EED8CA77B1AC8A4E894E6373CA830 /* Pods-HyperioniOS_Example-frameworks.sh */,
+				CA75D0566C34D8BC02360D958B33FF33 /* Pods-HyperioniOS_Example-resources.sh */,
+				AF1DE8147CAC0B71FA245C72430E7D86 /* Pods-HyperioniOS_Example-umbrella.h */,
+				2D5C3C0B6B141278C7942E1AE2170133 /* Pods-HyperioniOS_Example.debug.xcconfig */,
+				0088E757C83F3EA6E573A5C6364E449A /* Pods-HyperioniOS_Example.release.xcconfig */,
+			);
+			name = "Pods-HyperioniOS_Example";
+			path = "Target Support Files/Pods-HyperioniOS_Example";
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -485,15 +435,6 @@
 				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		4EEF5DC51A2467B4AC3C16E2F800D6D8 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				00DD57CBFD9635675F86B9A17170A2AB /* Pods-HyperioniOS_Example */,
-				11CD522DB3E498E6425838F6F236BD1D /* Pods-HyperioniOS_Tests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		5B2F3C81B14F267D3F9FC5D3C52E2984 /* AttributesInspector */ = {
@@ -562,8 +503,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BACF44DC77FBF20456C92E6BFDDEAC7F /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				08FED257962256ABD4278A376B7339B3 /* Products */,
-				4EEF5DC51A2467B4AC3C16E2F800D6D8 /* Targets Support Files */,
+				EF00EE30B8B3BFACCE5E899B1240A10D /* Products */,
+				E7BD8E2C05FB04D7EDC6942A7BB6FA26 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -731,6 +672,14 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		E7BD8E2C05FB04D7EDC6942A7BB6FA26 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42C10003582C204D23324F6988FEC576 /* Pods-HyperioniOS_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		E97F6ACDC9790D66CF8C2C3866484CEC /* PreviewViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -753,6 +702,15 @@
 				79344ED281A4AECDDA4E0615AA019EE4 /* HYPSnapshotPluginModule.m */,
 			);
 			path = SnapShotPlugin;
+			sourceTree = "<group>";
+		};
+		EF00EE30B8B3BFACCE5E899B1240A10D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11CE168A0D2455132351AF94E9218FA1 /* HyperioniOS.framework */,
+				8C73C3EF748F7EEAE85F0BADBA102417 /* Pods_HyperioniOS_Example.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		EF11B8F478289E4942D4ABD1B9E8B377 /* Plugin */ = {
@@ -790,14 +748,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		54D14C25C57379462424F6EFC54AC017 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				505C7434085385B54BF91C5597BDEA0B /* Pods-HyperioniOS_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		928D7423D8207066F17C761EBE0A17FA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -882,24 +832,7 @@
 			);
 			name = HyperioniOS;
 			productName = HyperioniOS;
-			productReference = ECDE16988E5810AC30931FC5322A1D4F /* HyperioniOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1C5EDB5BFD5062DA12B11308E1ED334D /* Pods-HyperioniOS_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9C4081A435C29A919B87667B66B8FD98 /* Build configuration list for PBXNativeTarget "Pods-HyperioniOS_Tests" */;
-			buildPhases = (
-				9829E8868BEBD75BA3B8EDCD9813B141 /* Sources */,
-				AD0B6770CEB2FD600359DD5CB063F86D /* Frameworks */,
-				54D14C25C57379462424F6EFC54AC017 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-HyperioniOS_Tests";
-			productName = "Pods-HyperioniOS_Tests";
-			productReference = 4FF783E465932A510DB33282B871D764 /* Pods_HyperioniOS_Tests.framework */;
+			productReference = 11CE168A0D2455132351AF94E9218FA1 /* HyperioniOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		26D5458C90257D84A3AC088CA1929B81 /* Pods-HyperioniOS_Example */ = {
@@ -917,7 +850,7 @@
 			);
 			name = "Pods-HyperioniOS_Example";
 			productName = "Pods-HyperioniOS_Example";
-			productReference = 146ABE851AEBD8925B58380EC2561F0F /* Pods_HyperioniOS_Example.framework */;
+			productReference = 8C73C3EF748F7EEAE85F0BADBA102417 /* Pods_HyperioniOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -937,26 +870,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 08FED257962256ABD4278A376B7339B3 /* Products */;
+			productRefGroup = EF00EE30B8B3BFACCE5E899B1240A10D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				0E58D2EDB8E4473AC1F4A6032B2D5701 /* HyperioniOS */,
 				26D5458C90257D84A3AC088CA1929B81 /* Pods-HyperioniOS_Example */,
-				1C5EDB5BFD5062DA12B11308E1ED334D /* Pods-HyperioniOS_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9829E8868BEBD75BA3B8EDCD9813B141 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39BD09D98BB1C2C3F39039303B1A93DE /* Pods-HyperioniOS_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9A72815AA537F74DF05ABDFC88311F5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1073,7 +997,7 @@
 /* Begin XCBuildConfiguration section */
 		09B14675174008C509485B01F66AEC94 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 762D2B7416E48247B9024F99E4E75340 /* Pods-HyperioniOS_Example.release.xcconfig */;
+			baseConfigurationReference = 0088E757C83F3EA6E573A5C6364E449A /* Pods-HyperioniOS_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1143,7 +1067,7 @@
 		};
 		876C9D983B3D1B3841CFF875186DE6AE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7130E7BFDFB2564B4245C454040427F /* Pods-HyperioniOS_Example.debug.xcconfig */;
+			baseConfigurationReference = 2D5C3C0B6B141278C7942E1AE2170133 /* Pods-HyperioniOS_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1320,78 +1244,6 @@
 			};
 			name = Release;
 		};
-		C88AC39734E1481FE955A197C5FFFBE8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF0604574DA6E146F60D3EAF36B1D944 /* Pods-HyperioniOS_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HyperioniOS_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HyperioniOS_Tests/Pods-HyperioniOS_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HyperioniOS_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D893305A49F1DF73F1B38A64D1E72F13 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA366045B9E1E657BB0CD05D83AA8442 /* Pods-HyperioniOS_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-HyperioniOS_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HyperioniOS_Tests/Pods-HyperioniOS_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_HyperioniOS_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1409,15 +1261,6 @@
 			buildConfigurations = (
 				B761AF756DB4C2DB6E5146E26045AA07 /* Debug */,
 				33CB8A24ABB7F33450AA742A8670DECA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9C4081A435C29A919B87667B66B8FD98 /* Build configuration list for PBXNativeTarget "Pods-HyperioniOS_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C88AC39734E1481FE955A197C5FFFBE8 /* Debug */,
-				D893305A49F1DF73F1B38A64D1E72F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

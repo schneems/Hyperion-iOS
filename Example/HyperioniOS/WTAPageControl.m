@@ -16,11 +16,6 @@
 - (void)awakeFromNib
 {
     [super awakeFromNib];
-    [self setup];
-}
-
-- (void)setup
-{
     [self updateIndicators];
 }
 
